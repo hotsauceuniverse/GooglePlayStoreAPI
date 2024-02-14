@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "691699507330",
-    "project_id": "playstoreapi-92e0a",
-    "storage_bucket": "playstoreapi-92e0a.appspot.com"
+    "project_number": "520185918544",
+    "project_id": "playstoreapi-1f75d",
+    "storage_bucket": "playstoreapi-1f75d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:691699507330:android:29667e832df5c959e7d49b",
+        "mobilesdk_app_id": "1:520185918544:android:f2b2bc9fe6336df8ee0d55",
         "android_client_info": {
           "package_name": "com.example.googleplaystoreapi"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "520185918544-2r5mrmpgkfshrp09ilmr054lp0kjton5.apps.googleusercontent.com",
+          "client_type": 3,
+          "android_info": {
+            "package_name": "com.example.googleplaystoreapi",
+            "certificate_hash": "128fb2882e30ea814ca442d67b2b8337be2ad96c"
+          }
+        },
+        {
+          "client_id": "520185918544-f2mhd1ijc8nvmp0sgnd4m4n37mfkjbi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMJY-FwX_GFbVoJYg0ZYzbZocak6hQvCk"
+          "current_key": "AIzaSyAJ7HCy-wM-A2zOIdW5J2xWjW3ByKJDA9w"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520185918544-f2mhd1ijc8nvmp0sgnd4m4n37mfkjbi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
