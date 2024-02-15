@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             public void onClick(View view) {
                 // 로그인 되어있는 경우
                 Intent intent = Auth.GoogleSignInApi.getSignInIntent(googleApiClient);
+                Log.d("asdss", "asdss" + intent);
                 startActivityForResult(intent, REQ_SIGN_GOOGLE);
             }
         });
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         
         if (requestCode == REQ_SIGN_GOOGLE) {
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            Log.d("asdsss", "asdsss" + result);
             if (result.isSuccess()) {
                 GoogleSignInAccount account = result.getSignInAccount();
                 

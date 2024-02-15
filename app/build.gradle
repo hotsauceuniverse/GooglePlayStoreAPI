@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.googleplaystoreapi'
-    compileSdk 33
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.example.googleplaystoreapi"
@@ -54,4 +54,10 @@ dependencies {
 
     // Also declare the dependency for the Google Play services library and specify its version
     implementation 'com.google.android.gms:play-services-auth:20.1.0'
+
+    // Google Play Developer API 관련 의존성 추가
+    implementation 'com.google.api-client:google-api-client:1.31.5'
+    implementation 'com.google.oauth-client:google-oauth-client:1.31.5'
+    implementation 'com.google.apis:google-api-services-androidpublisher:v3-rev20191113-1.30.3'
+
 }
